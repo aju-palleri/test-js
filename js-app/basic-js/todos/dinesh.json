@@ -1,0 +1,6 @@
+[
+    {"title":"Read a book","completed":false},
+    {"title":"Go cycling","completed":true},
+    {"title":"Code for 8 hours","completed":false},
+    {"title":"Bring a bread","completed":true}
+]

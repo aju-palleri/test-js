@@ -1,0 +1,6 @@
+[
+    {"title":"Go running","completed":false},
+    {"title":"Go cycling","completed":true},
+    {"title":"Code for 2 hours","completed":false},
+    {"title":"Have a coffee","completed":true}
+]

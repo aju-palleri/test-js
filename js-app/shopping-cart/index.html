@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping cart</title>
+</head>
+<body>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <div class="container" >
+        <!-- <div class="row bootstrap snippets "> -->
+            <!-- <div class="w-75 clearfix visible-sm"></div> -->
+            <div class="w-100 clearfix">
+                <h1 class="title">SHOPPING CART</h1>
+            </div>
+            <br>
+            <br>
+            <form>
+                <div class="form-group">
+                    <label for="prduct_label">Select Product</label>
+                    <select class="form-control" id="productSelect">
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="unit_price_label">Unit Price</label>
+                    <input type="text" readonly name="Price" id="unit_price" value="40">
+                  </div>
+                  <div class="form-group">
+                    <label for="quantity_label">Select Quantity</label>
+                    <select class="form-control" id="quantitySelect">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                <button type="submit" id="addToCart" class="btn btn-primary">Add to Cart</button>
+              </form>
+        <!-- ss</div> -->
+    </div>
+    <div class="container">
+        <div class="row bootstrap snippets ">
+            <div class="clearfix visible-sm"></div>
+            <!-- Cart -->
+            <div class="col-lg-12 col-md-9 col-sm-12">
+                <div class="col-lg-12 col-sm-12 hero-feature">
+                    <div class="table-responsive">
+                        <table class="table table-bordered tbl-cart">
+                            <thead>
+                                <tr>
+                                    <th>Product Name</th>
+                                    <th class="td-qty">Quantity</th>
+                                    <th>Unit Price</th>
+                                    <th>Sub Total</th>
+                                    <th>Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody class="cart-table">
+                                <!-- <tr>
+                                    <td>Age Of Wisdom Tan Graphic Tee</td>
+                                    <td>
+                                        <div class="input-group bootstrap-touchspin"><span class="input-group-btn"><button class="btn btn-default bootstrap-touchspin-down" type="button">-</button></span><span class="input-group-addon bootstrap-touchspin-prefix" style="display: none;"></span><input type="text" name="" value="1" class="input-qty form-control text-center" style="display: block;"><span class="input-group-addon bootstrap-touchspin-postfix" style="display: none;"></span><span class="input-group-btn"><button class="btn btn-default bootstrap-touchspin-up" type="button">+</button></span></div>
+                                    </td>
+                                    <td class="price">$ 122.21</td>
+                                    <td>$ 122.21</td>
+                                    <td class="text-center">
+                                        <a href="#" class="remove_cart" rel="2">
+                                            <i class="fa fa-trash-o"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Adidas Men Red Printed T-shirt
+                                    </td>             
+                                    <td>
+                                        <div class="input-group bootstrap-touchspin"><span class="input-group-btn"><button class="btn btn-default bootstrap-touchspin-down" type="button">-</button></span><span class="input-group-addon bootstrap-touchspin-prefix" style="display: none;"></span><input type="text" name="" value="2" class="input-qty form-control text-center" style="display: block;"><span class="input-group-addon bootstrap-touchspin-postfix" style="display: none;"></span><span class="input-group-btn"><button class="btn btn-default bootstrap-touchspin-up" type="button">+</button></span></div>
+                                    </td>
+                                    <td class="price">$ 20.63</td>
+                                    <td>$ 41.26</td>
+                                    <td class="text-center">
+                                        <a href="#" class="remove_cart" rel="1">
+                                            <i class="fa fa-trash-o"></i>
+                                        </a>
+                                    </td>
+                                </tr> -->
+                                <!-- <tr>
+                                    <td colspan="3" align="right">Total</td>
+                                    <td class="total" colspan="2"><b>$ 0.0</b>
+                                    </td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                        <div class="d-inline">
+                            <!-- <p align="left" class="">Total   Rs:</p> -->
+                            <strong>
+                                <p id='carttotal' colspan="2">Total   Rs:</p>
+                            </strong>
+                            
+                         </div>
+                    </div>
+                    <!-- <div class="btn-group btns-cart">
+                        <button type="button" class="btn btn-primary"><i class="fa fa-arrow-circle-left"></i> Continue Shopping</button>
+                        <button type="button" class="btn btn-primary">Update Cart</button>
+                        <button type="button" class="btn btn-primary">Checkout <i class="fa fa-arrow-circle-right"></i></button>
+                    </div> -->
+
+                </div>
+            </div>
+            <!-- End Cart -->
+        </div>
+    </div>
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>

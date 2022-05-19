@@ -1,0 +1,50 @@
+body{
+    background: #bbb7d3;
+  }
+  .container{
+    max-width: 600px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(192, 132, 132, 0.2);
+    max-width: 600px;
+  }
+  .todos li{
+    background: #454350;
+  }
+  .delete{
+    cursor: pointer;
+  }
+  
+  .filtered{
+      display: none !important;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 400px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container1 {
+    padding: 2px 16px;
+  }
+
+  .number{
+    background: #504686;
+    color: #fff;
+  }
+
+  #searchDate{
+    background: #1cb824;
+    color: #fff;
+  }
